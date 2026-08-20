@@ -1,3 +1,15 @@
-.button {
-      color:brown;
-    }
+*{
+  background-color: rgba(207, 221, 203, 0.717);
+ font-family:Arial;
+  font-size: 4opx;
+}
+.t_contact{
+color: blueviolet;
+}
+.s_shdow{
+  border: 4px solid black;
+  box-shadow:4px 4px 10px red;
+  filter: drop-shadow(4px 4px 10px black );
+
+
+}

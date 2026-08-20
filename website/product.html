@@ -4,52 +4,137 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-</head>
+ 
+      <style>
+           *{
+           
+             text-align:center;
+             font-family:arial;
+             font-size: 20px;
+        }
+        /* .B_size{
+            font-size: 40px;   
+            box-sizing: 10px;  
+        padding: 10px;
+             width: 400px;
+            hight:10px; 
+            margin: 40px;
+            border: 4px solid black;
+           align-items: center;
+            text-color: rgb(43, 226, 147);
+          right: 300px;
+           } */
+            .D_position{
+               position: sticky;
+                top: 20px;
+           }
+           article{
+           text-wrap: wrap;
+           
+            /* display: flex; */
+
+           }
+           
+       body{
+        background-image:url(image/monica-toner-oroFhZj_YA4-unsplash.jpg);
+       }
+       header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+.search-box{
+    display: flex;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+}
+
+input{
+    border: none;
+    outline: none;
+    padding: 10px;
+}
+
+button{
+    cursor: pointer;
+}
+
+.logo{
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+      </style>
 <body>
-    <center>
-       <marquee scrolldelay="100"  >
+       <!-- <marquee scrolldelay="100"  >
                   <h1 style="color: aqua;">Ajio</h1>
         </marquee>
-   
+    -->
 
-     <header>
+     <header class="D_position">
         <nav>
-            <h1>
+            <!-- <h1>
             <a href="index.html">Home</a>  ||
             <a href="about.html">About</a> ||
             <a href="product.html">Product</a> ||
              <a href="conatct.html">Contact</a> ||
 
-            </h1>
+            </h1> -->
         </nav>
     </header>
-    <h1><strong>PRODUCT!!</strong></h1>
     <a href="https://www.ajio.com/sections/mens" target="_blank"><mark>MENS </mark>  &#128102</a> ||
     <a href="https://www.ajio.com/sections/women" target="_blank"><mark>WOMEN </mark>  &#128103</a> ||
     <a href="https://www.ajio.com/sections/kids" target="_blank"><mark>KIDS</mark>  &#128118</a>  ||
     <a href="https://www.ajio.com/c/8312 " target="_blank"> <mark>HOME </mark> &#9962</a> ||
 
-    <main>
-        <selection>
-         <article>
-         <p>MENS COLTHS</p>
-         <p>FEMALE COLTHS</p>
-         <P>KIDS COLTHS</P>
-         <P>HOME & KITCHEN </P>
-         </article>
-            </selection>
-    </main>
+<div class="logo">AJIO</div>
+
+  <nav>
+    <ul>
+      <li>MEN</li>
+      <li>WOMEN</li>
+      <li>KIDS</li>
+      <li>BEAUTY</li>
+      <li>HOME & KITCHEN</li>
+    </ul>
+  </nav>
+
+  <div class="search-box">
+    <input type="text" placeholder="Search AJIO">
+    <button>🔍</button>
+  </div>
+
+  <a href="#">Sign In / Join AJIO</a>
+  <a href="#">Customer Care</a>
+  <button>Visit AJIOLUXE</button>
+
+  <button>♡</button>
+  <button>🛍</button>
+        
    
-    
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
   <footer>
   	&copy; copyright by Gaurav patil
  </footer>
-    </center>
-    <marquee scrolldelay="200" direction="up" width="300" hight="500">
-                   <p>MENS COLTHS</p>
+    <!-- <marquee scrolldelay="200" direction="up" width="300" hight="500"> -->
+                   <!-- <p>MENS COLTHS</p>
          <p>FEMALE COLTHS</p>
          <P>KIDS COLTHS</P>
          <P>HOME & KITCHEN </P>
-        </marquee>
+        </marquee> -->
 </body>
 </html>
